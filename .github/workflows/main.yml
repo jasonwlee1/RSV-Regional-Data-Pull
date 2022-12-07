@@ -3,7 +3,7 @@ name: rsv_regional_data_pull
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 14 * * *' # runs at 9 AM EST daily
+    - cron: '00 15 * * *' # runs at 9 AM EST daily
 
 jobs:
   build:
